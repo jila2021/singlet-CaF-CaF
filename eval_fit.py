@@ -25,5 +25,5 @@ x_test=1/x_test_sp
 
 gpsym=symGP(GP)
 y_pred = gpsym(1/x_test_sp)
-#Save energies to file
+#Save energies to file in cm^-1
 np.savetxt('example_output.txt',y_pred/cm1)
