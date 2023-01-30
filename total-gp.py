@@ -1,15 +1,10 @@
-import matplotlib.pyplot as plt
 import numpy as np
-from mpl_toolkits.mplot3d import Axes3D
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, DotProduct, Matern, WhiteKernel, ConstantKernel as C
 from symfuncs import *
-#from coordtransform import *
 from sklearn.model_selection import train_test_split
 from numpy import asarray
 from numpy import savetxt
-import pandas as pd
-import csv
 import pickle
 
 cm1=1.0/2.19474631e5 #unit
