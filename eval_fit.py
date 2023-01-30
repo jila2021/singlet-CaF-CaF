@@ -1,6 +1,3 @@
-#this code is used to check the accuracy of the GP interpolation
-#on test data set interm of root mean squre error
-# Edited by Dibyendu Sardar 
 import numpy as np
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, DotProduct, Matern, WhiteKernel, ConstantKernel as C
