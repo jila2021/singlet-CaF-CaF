@@ -8,11 +8,11 @@ reactions of calcium monofluoride"; arXiv:2211.05909 (2022).
 *The training and test data sets are in inverse atomic coordinates that
 we mentioned in our manuscript. The energy is expressed in atomic unit. 
  
-*Here we consider two sets of training data named as train_set1.txt and train_set2.txt, respectively. We set zero
-of the energy at CaF-CaF threshold. Inside the code, we put a condition to exclude the high energy data points with respect 
-to the CaF-CaF threshold. For our purpose we ran the code for training data which are 
-below: 0.00455 Hartree = 1000 cm^-1 to CaF-CaF threshold. But, one can set the repuslive barrier of the potential by 
-changing this number and run the code. 
+*Here we consider two sets of training data named as train_set1.txt and train_set2.txt, respectively. These two training sets are 
+equivalent to GP-II and GP-III according to the manuscript. We set zero of the energy at CaF-CaF threshold. Inside the code, 
+we put a condition to exclude the high energy data points with respect to the CaF-CaF threshold. For our purpose we ran the code 
+for training data which are below: 0.00455 Hartree = 1000 cm^-1 to CaF-CaF threshold. But, one can set the repuslive barrier of the
+potential by changing this number and run the code. 
 
 *The auxiliary python function symfuncs.py is used for the symmetrization.
 
